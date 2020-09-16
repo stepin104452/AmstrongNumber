@@ -6,8 +6,8 @@
 #define PROJECT_NAME    "Amstrong_number_check"
 
 /* Prototypes for all the test functions */
-void test_not_amstrong(void);
-void test_amstrong(void);
+void test_not_Amstrong(void);
+void test_Amstrong(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -19,8 +19,8 @@ int main() {
   
   
   /* Add your test functions in this format for testing*/
-  CU_add_test(suite, "not amstrong", test_not_amstrong);
-  CU_add_test(suite, "amstrong", test_amstrong);
+  CU_add_test(suite, "not Amstrong", test_not_Amstrong);
+  CU_add_test(suite, "Amstrong", test_Amstrong);
 
 
 
@@ -38,7 +38,7 @@ int main() {
 }
 
 /* Write all the test functions */ 
-void test_not_amstrong(void) {
+void test_not_Amstrong(void) {
   
   CU_ASSERT(0 == AmstrongNumber(56));
   
@@ -46,11 +46,11 @@ void test_not_amstrong(void) {
   CU_ASSERT(0 == AmstrongNumber(153));
 }
 
-void test_amstrong(void) {
-  CU_ASSERT(1 == primeNumber(153));
+void test_Amstrong(void) {
+  CU_ASSERT(1 == AmstrongNumber(153));
   
   /* Dummy fail*/
-  CU_ASSERT(1 == primeNumber(56));
+  CU_ASSERT(1 == AmstrongNumber(56));
 }
 
 
