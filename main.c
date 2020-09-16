@@ -1,7 +1,6 @@
 #include <math.h>
+#include<stdio.h>
 #include "AmstrongNumber.h"
-
-int ArmstrongNumber(int n);
 
 int main() {
    int n, flag;
@@ -9,11 +8,10 @@ int main() {
    scanf("%d", &n);
 
    // check Armstrong number
-   flag = ArmstrongNumber(n);
+   flag = AmstrongNumber(n);
    if (flag == 1)
-      printf("%d is an Armstrong number.", n);
+      printf("%d is an Amstrong number.", n);
    else
-      printf("%d is not an Armstrong number.", n);
+      printf("%d is not an Amstrong number.", n);
    return 0;
 }
-
