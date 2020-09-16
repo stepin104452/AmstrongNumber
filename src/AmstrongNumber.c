@@ -1,7 +1,7 @@
 #include <math.h>
 #include "AmstrongNumber.h"
 
-int ArmstrongNumber(int num) {
+int AmstrongNumber(int num) {
    int originalNum, remainder, n = 0, flag;
    double result = 0.0;
 
