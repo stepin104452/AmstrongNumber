@@ -1,5 +1,5 @@
 /**
-* @file primeNumber.h
+* @file AmstrongNumber.h
 *
 */
 #ifndef __AMSTRONGNUMBER_H__
