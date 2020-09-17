@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = Amstrong_number_check
+PROJECT_NAME = Amstrong_number
 
 # Output directory
 BUILD = build
