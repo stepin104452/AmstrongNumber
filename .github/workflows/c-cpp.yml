@@ -13,5 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      
     - name: make all
-      run:  make all
+      run:  make all -C AmstrongNumber
